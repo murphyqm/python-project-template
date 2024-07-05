@@ -1,0 +1,34 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+	"name": "Basic Ubuntu with miniforge",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  // Add miniforge to make fast conda available
+	"features": {
+		"ghcr.io/rocker-org/devcontainer-features/miniforge:1": {}
+	},
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+    // create example first conda env
+	"postCreateCommand": "conda env create --file .devcontainer/env-files/packaging-env.yml",
+
+
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code: adding in useful extensions
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+				"njpwerner.autodocstring",
+				"usernamehw.errorlens",
+				"tamasfe.even-better-toml",
+				"ninoseki.vscode-mogami",
+				"KevinRose.vsc-python-indent",
+				"charliermarsh.ruff"
+			]
+		}
+	},
+}
