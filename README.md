@@ -20,6 +20,27 @@ a local clone of the repository on a virtual machine; you will have to use git a
 
 Once launched, you can generate a basic project layout following the instructions [here](https://package-your-python.streamlit.app/).
 
+# Step-by-step: use this repository to build a Python package
+
+These steps assume you have already planned your Python project and brainstormed how you are going to meet your requirements, picked a name, created a repository from this template in your account!
+
+1. Launch this dev container in codespaces. Familiarise yourself with the VSCode interface and using git from inside this virtul machine.
+2. Install any required conda environments.
+3. Create your package folder organisation using [this tool](https://package-your-python.streamlit.app/); check your license and README.md.
+4. Write your code and your tests: you can take a test-driven development approach, or write your unit tests and integration tests after your functions.
+5. Generate your docstrings (there are a variety of tools installed in your VSCode env to help with this).
+6. Run tests using `pytest` (installed in the `packaging-env` for you).
+7. Format your code with `black`  (installed in the `packaging-env` for you).
+8. Create your documentation with `mkdocs` and host on GitHub pages.
+9. Create a basic GitHub Action workflow to test your code.
+10. Create a release and use a GitHub action workflow to build your code.
+
+Consider the [DeReLiCT Code](https://derelict.streamlit.app/) principles when designing your project.
+
+# Guidance
+
+Some key commands/directions for building your project are listed here.
+
 ## Essential linux/bash commands
 
 The virtual machine is running on Ubuntu, a Linux distribution.
