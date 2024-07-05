@@ -4,7 +4,7 @@ You can create your own version of this repository by clicking the `Use Template
 
 You can set the name of your new repository to your Python project name. See [our webapp](https://package-your-python.streamlit.app/) for details on choosing a package and project name.
 
-The contents of this ReadMe are replicated at the link above, so you can delete this and replace it with your own content.
+The contents of this ReadMe are replicated on the [wiki here](https://github.com/murphyqm/python-project-template/wiki/Copy-of-the-ReadMe-file), so you can delete this and replace it with your own content.
 
 GitHub action workflows are provided in the folder `Example workflows`; these will need to be moved to a `.github/workflows` directory to be used, and will need to be updated to match your Python package name.
 
