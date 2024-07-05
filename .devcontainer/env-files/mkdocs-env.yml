@@ -1,0 +1,10 @@
+name: mkdocs-env
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - mkdocs
+    - "mkdocstrings[python]"
+    - mkdocs-material

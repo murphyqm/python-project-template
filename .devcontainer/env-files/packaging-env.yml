@@ -1,0 +1,9 @@
+name: packaging-env
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pytest
+  - setuptools
+  - sphinx
+  - blackd
