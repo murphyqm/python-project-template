@@ -6,6 +6,8 @@ You can set the name of your new repository to your Python project name. See [ou
 
 The contents of this ReadMe are replicated at the link above, so you can delete this and replace it with your own content.
 
+GitHub action workflows are provided in the folder `Example workflows`; these will need to be moved to a `.github/workflows` directory to be used, and will need to be updated to match your Python package name.
+
 ## Launch in codespaces
 
 This repository contains a `devcontainer.json` file, which includes details to set up a cloud virtual machine in GitHub codespaces.
@@ -15,6 +17,8 @@ window at the bottom of the screen, which allows you to interact with the virtua
 
 If you use `pwd` to check the working directory, you will get `/workspaces/YOUR-REPO-NAME`: you are positioned inside the git repository folder. This is essentially
 a local clone of the repository on a virtual machine; you will have to use git as your would on your desktop (such as pushing changes to `origin BRANCH-NAME` from the terminal).
+
+Once launched, you can generate a basic project layout following the instructions [here](https://package-your-python.streamlit.app/).
 
 ## Essential linux/bash commands
 
