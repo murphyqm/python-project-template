@@ -39,7 +39,7 @@ Consider the [DeReLiCT Code](https://derelict.streamlit.app/) principles when de
 
 # Guidance
 
-Some key commands/directions for building your project are listed here.
+Some key commands/directions for building your project are listed here. See further details on the [wiki](https://github.com/murphyqm/python-project-template/wiki).
 
 ## Essential linux/bash commands
 
