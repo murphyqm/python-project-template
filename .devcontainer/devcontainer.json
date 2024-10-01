@@ -3,7 +3,7 @@
 {
 	"name": "Basic Ubuntu with miniforge",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"image": "mcr.microsoft.com/devcontainers/base:alpine",
   // Features to add to the dev container. More info: https://containers.dev/features.
   // Add miniforge to make fast conda available
 	"features": {
@@ -12,7 +12,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
     // create example first conda env
-	"postCreateCommand": "conda env create --file .devcontainer/env-files/packaging-env.yml",
+	//"postCreateCommand": "conda env create --file .devcontainer/env-files/packaging-env.yml",
 
 
 	// Configure tool-specific properties.
