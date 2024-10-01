@@ -27,7 +27,8 @@
 				"tamasfe.even-better-toml",
 				"ninoseki.vscode-mogami",
 				"KevinRose.vsc-python-indent",
-				"charliermarsh.ruff"
+				"charliermarsh.ruff",
+				"mhutchie.git-graph"
 			]
 		}
 	},
