@@ -1,5 +1,7 @@
 # The Ultimate Python Project Template
 
+[![DOI](https://zenodo.org/badge/824644581.svg)](https://doi.org/10.5281/zenodo.13882371)
+
 You can create your own version of this repository by clicking the `Use Template` option.
 
 You can set the name of your new repository to your Python project name. See [our webapp](https://package-your-python.streamlit.app/) for details on choosing a package and project name.
