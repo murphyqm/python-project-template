@@ -14,7 +14,7 @@
 	// Use 'postCreateCommand' to run commands after the container is created.
     // create example first conda env
 	//"postCreateCommand": "conda env create --file .devcontainer/env-files/packaging-env.yml",
-	"postCreateCommand": "chmod +x ./.devcontainer/postCreateCommands.sh && ./.devcontainer/postCreateCommands.sh",
+	"postCreateCommand": "chmod +x ./.devcontainer/activateEnv.sh && chmod +x ./.devcontainer/postCreateCommands.sh && ./.devcontainer/postCreateCommands.sh",
 
 
 	// Configure tool-specific properties.
