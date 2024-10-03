@@ -8,3 +8,4 @@ dependencies:
     - mkdocs
     - "mkdocstrings[python]"
     - mkdocs-material
+    - mkdocs-jupyter
