@@ -72,6 +72,11 @@ git checkout NAME # swap over to the branch called NAME
 git add . # stage all changed files for commit, you can replace "." with FILE to add a single file called FILE
 git commit # commit the staged files (this will open your text editor to create a commit message)
 git push origin NAME # push local commits to the remote branch tracking the branch NAME
+
+# Added something unintentional?
+git reset --soft HEAD^ # undo a git commit
+git reset # undo git add
+git restore --staged FILE # udo git add to specific file
 ```
 
 ## Essential conda commands
