@@ -76,7 +76,8 @@ git push origin NAME # push local commits to the remote branch tracking the bran
 # Added something unintentional?
 git reset --soft HEAD^ # undo a git commit
 git reset # undo git add
-git restore --staged FILE # udo git add to specific file
+git restore --staged FILE # undo git add to specific file
+git restore FILE # undo all changes to an unstaged file since last commit
 ```
 
 ## Essential conda commands
