@@ -30,7 +30,7 @@
 				"ninoseki.vscode-mogami",
 				"KevinRose.vsc-python-indent",
 				"charliermarsh.ruff",
-				"mhutchie.git-graph",
+				"mhutchie.git-graph"
 			]
 		},
 	},
