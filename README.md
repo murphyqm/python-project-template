@@ -104,6 +104,39 @@ sys.path.append("src")
 
 You can then run `pytest` from the main repo directory.
 
+## Essential Jupytext hints
+
+Create a conda env with Jupyter and Jupytext installed:
+
+```
+conda env create --file .devcontainer/env-files/jup-env.yml
+```
+
+Ensure you have the Jupyter extension installed.
+
+To "pair" a notebook (e.g. create a `.py` plaintext version that can be version controlled), use the Jupytext CLI:
+
+```
+jupytext --set-formats ipynb,py:percent notebook.ipynb
+```
+
+Now you can add `.ipynb` files to your `.gitignore` and only track the `.py` version.
+
+You can sync these notebooks:
+```
+jupytext --sync notebook.ipynb
+```
+
+If you download the code to another machine (`git clone` the repository), you should only have the `.py` files.
+
+You can get `jupytext` to generate the notebook output:
+
+```
+jupytext --sync notebook.py
+```
+
+You can also just work form the `jupytext` Python file (the Juptyer VSCode extension will allow sections of it to run as a notebook).
+
 ## Essential GitHub action hints
 
 Under workflows, select "New workflow" and choose the "Python application" option. Change the Python version to suit your application, and modify the triggers so that you can manually run the action:
