@@ -15,6 +15,12 @@ This repository contains a `devcontainer.json` file, which includes details to s
 Once you launch the codespace from your repository (it will take a while to set up), you will have a view that matches the app VSCode, including a terminal
 window at the bottom of the screen, which allows you to interact with the virtual machine.
 
+Once it has launched, run:
+
+`source "${HOME}/conda/etc/profile.d/conda.sh"`
+
+from the terminal to get `conda` up and running.
+
 If you use `pwd` to check the working directory, you will get `/workspaces/YOUR-REPO-NAME`: you are positioned inside the git repository folder. This is essentially
 a local clone of the repository on a virtual machine; you will have to use git as your would on your desktop (such as pushing changes to `origin BRANCH-NAME` from the terminal).
 
