@@ -78,6 +78,9 @@ git reset --soft HEAD^ # undo a git commit
 git reset # undo git add
 git restore --staged FILE # undo git add to specific file
 git restore FILE # undo all changes to an unstaged file since last commit
+
+# after merging a pull request
+git fetch -p  # delete branches that no longer exist in the remote
 ```
 
 ## Essential conda commands
