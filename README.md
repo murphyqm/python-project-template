@@ -81,6 +81,9 @@ git restore FILE # undo all changes to an unstaged file since last commit
 
 # after merging a pull request
 git fetch -p  # delete branches that no longer exist in the remote
+
+# go back to an old version and put it on a branch
+git checkout -b NEW-BRANCH-NAME-FOR-OLD-VERSION git-hash-here
 ```
 
 ## Essential conda commands
