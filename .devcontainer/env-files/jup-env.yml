@@ -1,0 +1,12 @@
+name: jup-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyterlab>=4.0.0
+  - jupytext
+  - pandas
+  - seaborn
+  - matplotlib
+  - numpy
