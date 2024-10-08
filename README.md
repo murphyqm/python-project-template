@@ -69,7 +69,7 @@ We will use git and a GitHUb remote to track our changes. You can use git in the
 git status # check on status of current git repo
 git branch NAME # create a branch called NAME
 git checkout NAME # swap over to the branch called NAME
-git add . # stage all changed files for commit, you can replace "." with FILE to add a single file called FILE
+git add NAME # stage FILE for commit
 git commit # commit the staged files (this will open your text editor to create a commit message)
 git push origin NAME # push local commits to the remote branch tracking the branch NAME
 
